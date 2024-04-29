@@ -1,0 +1,2 @@
+ class Eagle extends Bird {
+}

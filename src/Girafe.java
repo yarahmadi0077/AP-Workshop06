@@ -1,0 +1,3 @@
+class Girafe extends Mamml {
+}
+;

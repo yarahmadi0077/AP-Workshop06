@@ -1,0 +1,3 @@
+class Mamml extends Animal {
+
+}

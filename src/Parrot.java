@@ -1,0 +1,2 @@
+class Parrot extends Bird{
+}

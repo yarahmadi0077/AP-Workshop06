@@ -1,0 +1,2 @@
+ class Cheetah extends Mamml{
+}
