@@ -1,3 +1,3 @@
- interface Hunter {
-    public void Hunt (Prey prey);
+public interface Hunter {
+    public void hunt(Prey prey);
 }
