@@ -1,3 +1,3 @@
-interface Prey {
+public interface Prey {
 
 }

@@ -1,6 +1,5 @@
-class Bird extends Animal {
-    private double heightOfFlight ;
-
+public abstract class Bird extends Animal {
+    protected double heightOfFlight;
 
     public Bird(String name, int age, String attributes, double heightOfFlight) {
         super(name, age, attributes);
@@ -8,17 +7,20 @@ class Bird extends Animal {
     }
 
     public double getHeightOfFlight() {
-        return heightOfFlight;
+        return this.heightOfFlight;
     }
 
     public void setHeightOfFlight(double heightOfFlight) {
-        if (heightOfFlight > 0)
+        if (heightOfFlight > 0) {
             this.heightOfFlight = heightOfFlight;
+        }
     }
-    public String toString(){
-        return super.toString() + " " + heightOfFlight;
+
+    public void show() {
+        System.out.println("name: " + name + ", age: " + age + ", height of fly: " + heightOfFlight + " \"" + attributes + "\"");
     }
-    public void show(){
-        System.out.println(getName() + " " + getAge() + " " + getAttributes()  +"  " + heightOfFlight);
+
+    public String toString() {
+        return super.toString() + "\nHeight of Flight: " + this.heightOfFlight;
     }
 }
