@@ -7,6 +7,7 @@ public abstract class Animal {
         this.name = name;
         this.age = age;
         this.attributes = attributes;
+
     }
 
     public String getName() {
@@ -36,7 +37,7 @@ public abstract class Animal {
     }
 
     public void show() {
-        System.out.println("name: " + name + ", age: " + age + " \"" + attributes + "\"");
+        System.out.println("name:  " + name + ", age: " + age + " \"" + attributes + "\"");
     }
 
     public String toString() {
